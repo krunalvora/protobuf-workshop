@@ -32,9 +32,7 @@ public class SimpleMain {
     message.writeTo(outputStream);
     outputStream.close();
 
-    // send as byte array
-    byte[] bytes = message.toByteArray();
-
+    // Read protobuf from file
     try {
       System.out.println("Reading from file...");
 

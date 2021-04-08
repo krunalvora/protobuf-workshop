@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package example.test_string_value;
+
+import "google/protobuf/wrappers.proto";
+
+message TestStringValueMessage {
+  int32 id = 1;
+  google.protobuf.StringValue name = 2;
+}
